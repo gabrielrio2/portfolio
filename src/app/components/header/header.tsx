@@ -6,7 +6,7 @@ export function Header(props:any) {
     <div className='header'>
 
       <div>
-        <h1> Olá, sou Gabriel</h1>
+        <h1> Hi, i´m Gabriel! 👋</h1>
         <h2> Software Engineer</h2>
       </div>
       <Image

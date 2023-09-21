@@ -11,10 +11,10 @@ export function SocialBtns() {
             <a href="">
                 <InstaIcon/>
             </a>
-            <a href=""><LinkIcon/>
+            <a href="https://www.linkedin.com/in/gabriel-nobre-a28064129/"><LinkIcon/>
             </a>
             
-            <a href=""><GitIcon/>
+            <a href="https://github.com/gabrielrio2"><GitIcon/>
             </a>
             
             <a href=""><TwtIcon/>

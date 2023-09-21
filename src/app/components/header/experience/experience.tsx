@@ -4,7 +4,7 @@ export function Experience(){
     return(
         <div className='experience'>
         <SectionTile text="Experience"/>
-        <p>ESCREVA A SUA EXPERIENCIA DE TRABALHO AQUI!!</p>
+        <p>2 years as a development intern at the company Telecall</p>
         <div className='experience-time'>
 
             </div>
