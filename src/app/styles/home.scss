@@ -1,0 +1,28 @@
+.conteiner {
+    padding: 40px 32px;
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: 
+        "header"
+        "btns"
+        "experience"
+        "info";
+}
+
+@media (min-width:768px) {
+    .conteiner {
+        padding: 60px 70px;
+        height: 100vh;
+        grid-template-rows: fit-content(100%);
+        grid-template-columns: 60% 30%;
+        align-items: center;
+        justify-items: start;
+        justify-content: space-between;
+        grid-template-areas: 
+            "header info"
+            "experience"
+            "experience vazio"
+            "vazio2 btns"
+            "info";
+    }
+}
