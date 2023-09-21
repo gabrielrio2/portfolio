@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import './header.scss'
 
-export function Header() {
+export function Header(props:any) {
   return (
     <div className='header'>
 

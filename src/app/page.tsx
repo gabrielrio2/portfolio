@@ -1,6 +1,10 @@
+import Image from "next/image";
 import { Experience } from "./components/header/experience/experience";
 import { Header } from "./components/header/header";
+import { Info } from "./components/header/information/information";
 import './styles/home.scss'
+import { Emailicon } from "./components/header/icons/email-icon";
+import { SocialBtns } from "./components/header/social-btns/social";
 
 
 export default function Home() {
@@ -8,23 +12,15 @@ export default function Home() {
     <main className="conteiner" >
       <Header />
       <Experience/>
-      <div className='infos'>
-        <h3>idiomas</h3>
-        <div className='languages-info'>
-          <span>EN-Fluent</span>
-          <span>  PT-BR - Native Speaker</span>
-        </div>
-        <h3>Education</h3>
-        <div className='educational-info'>
-          <span> </span>
-          <span>Information system Bachelors Degree - Universidade Estacio de Sá </span>
-        </div>
-      </div>
+      <Info/>
+    
       <div className="buttons">
-        <div className="social">
-
-        </div>
-        <button>Contact me</button>
+        <SocialBtns/>
+        
+        <button className="btn-primary">Contact me
+        <Emailicon/>
+        </button>
+        
       </div>
     </main>
   )
