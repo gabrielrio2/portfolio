@@ -25,7 +25,7 @@ export function Experience() {
                 <div className='experience-language'>
                     <Image
 
-                        src="/javaScript2.png"
+                        src="/javaScript.png"
                         alt="JavaScript Logo"
                         width={40}
                         height={40}
